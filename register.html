@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/register.js"></script> 
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<h2>Fill to Register</h2>
+	<form id="register-form" method="post">
+		<label>Name:</label><br>
+		<input type="text" name="name" required><br><br>
+
+		<label>Date of Birth:</label><br>
+		<input type="date" name="dob" required><br><br>
+
+		<label>Email ID:</label><br>
+		<input type="email" name="email" required><br><br>
+
+		<label>Username:</label><br>
+		<input type="text" name="username" required><br><br>
+
+		<label>Password:</label><br>
+		<input type="password" name="password" required><br><br>
+
+		<label>Contact:</label><br>
+		<input type="tel" name="contact" required><br><br>
+
+		<label>Address:</label><br>
+		<textarea name="address" required></textarea><br><br>
+
+		<label>Work:</label><br>
+		<input type="text" name="work" required><br><br>
+		<input type="submit" value="Register" id="register-form">
+	</form>
+</body>
+</html>

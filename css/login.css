@@ -1,0 +1,55 @@
+/* set the font for the whole page */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+  }
+  
+  /* center the login form on the page */
+  form {
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  /* add some spacing between the form fields */
+  form input[type="text"],
+  form input[type="password"] {
+    margin-bottom: 10px;
+  }
+  
+  /* style the input fields */
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f2f2f2; /* add a light gray background */
+  }
+  
+  /* style the input fields on focus */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: #fff; /* change the background color */
+    box-shadow: 0 0 5px #ccc; /* add a light box shadow */
+  }
+  
+  /* style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* style the message div */
+  #message {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
